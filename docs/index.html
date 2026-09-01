@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FATIMA — Télécharger l'application</title>
+
+    <meta name="description" content="Téléchargez et installez l'application FATIMA.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff7fb, #f8e9f4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 520px;
+            background: white;
+            border-radius: 28px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12);
+        }
+
+        .logo {
+            width: 110px;
+            height: 110px;
+            border-radius: 25px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            font-size: 38px;
+            color: #8e2878;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .version {
+            display: inline-block;
+            background: #f4e1f0;
+            color: #8e2878;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .download {
+            display: block;
+            width: 100%;
+            padding: 17px;
+            background: linear-gradient(135deg, #9d3186, #72205f);
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 18px rgba(114, 32, 95, 0.25);
+            transition: 0.2s;
+        }
+
+        .download:hover {
+            transform: translateY(-2px);
+            opacity: 0.95;
+        }
+
+        .qr-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .qr {
+            width: 190px;
+            height: 190px;
+            margin: 0 auto 20px;
+            border: 8px solid white;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+        }
+
+        .instructions {
+            background: #faf5f9;
+            border-radius: 15px;
+            padding: 18px;
+            text-align: left;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #666;
+            margin-top: 20px;
+        }
+
+        .instructions strong {
+            color: #8e2878;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #999;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .logo {
+                width: 90px;
+                height: 90px;
+            }
+
+            .qr {
+                width: 170px;
+                height: 170px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img
+            src="images/fatima_icon.png"
+            alt="Logo FATIMA"
+            class="logo"
+        >
+
+        <h1>FATIMA</h1>
+
+        <p class="subtitle">
+            Votre application de gestion
+        </p>
+
+        <div class="version">
+            Version 1.0.0
+        </div>
+
+        <p class="description">
+            Découvrez FATIMA, une application conçue pour
+            simplifier la gestion de votre activité,
+            vos clients, vos services et vos réservations.
+        </p>
+
+        <a
+            class="download"
+            href="https://github.com/madoubamba197-max/fatima-app/releases/latest/download/fatima.apk"
+        >
+            📱 Télécharger FATIMA
+        </a>
+
+        <p class="qr-title">
+            Scannez pour installer FATIMA
+        </p>
+
+        <img
+            class="qr"
+            src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fgithub.com%2Fmadoubamba197-max%2Ffatima-app%2Freleases%2Flatest%2Fdownload%2Ffatima.apk"
+            alt="QR Code téléchargement FATIMA"
+        >
+
+        <div class="instructions">
+            <strong>Comment installer ?</strong><br><br>
+
+            1. Appuyez sur le bouton
+            <strong>« Télécharger FATIMA »</strong> ou scannez le QR Code.<br>
+
+            2. Attendez la fin du téléchargement.<br>
+
+            3. Ouvrez le fichier
+            <strong>fatima.apk</strong>.<br>
+
+            4. Autorisez l'installation si Android vous le demande.<br>
+
+            5. Lancez l'application FATIMA.
+        </div>
+
+        <footer>
+            © 2026 FATIMA — Tous droits réservés
+        </footer>
+
+    </div>
+
+</body>
+</html>
