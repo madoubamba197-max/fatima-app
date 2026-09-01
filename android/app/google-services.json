@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127213990805",
+    "project_id": "fatima-10567",
+    "storage_bucket": "fatima-10567.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127213990805:android:e963d727ab15fa12cabc9c",
+        "android_client_info": {
+          "package_name": "com.fatima.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkVF6nTeO__WR9QGbuJ9umgvW3KJwDhEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
